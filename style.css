@@ -62,8 +62,10 @@ nav ul li a{
 }
 
 #hero-section{
+    display: flex;
+    justify-content: space-between;
     position: relative;
-    top: 30vh;
+    top: 22vh;
     color:#6d8196; ;
     margin-left: 50px;
 }
@@ -85,21 +87,25 @@ nav ul li a{
    font-size: 20px;
 }
 
-#hero-section img{
-    border-radius: 20%;
-    position: relative;
-    left: 60vw;
-    top: -30vh;
+#hero-section img {
+    border-radius: 30px;
+    margin-right: 50px;
 }
 
-.socials{
-    margin-left: 50px;
+.text-link-layout-hero{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
 }
 
-.socials-img{
-    height: 70px;
-    width: 70px;
+.text-link-layout-hero a{
+text-decoration: none;
 }
+
+.social-link{
+    margin-right: 15px;
+}
+
 
 .section-style{
     margin-left: 50px;
