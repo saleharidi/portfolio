@@ -87,7 +87,7 @@ nav ul li a{
    font-size: 20px;
 }
 
-#hero-section img {
+.hero-img {
     border-radius: 30px;
     margin-right: 50px;
 }
@@ -103,13 +103,13 @@ text-decoration: none;
 }
 
 .social-link{
-    margin-right: 15px;
+    margin-right: 25px;
+    border-radius: 30px;
 }
-
 
 .section-style{
     margin-left: 50px;
-    margin-top: 100px;
+    margin-top: 300px;
     font-size: 25px;
     font-weight: 600;
     text-wrap: balance;
@@ -121,7 +121,7 @@ text-decoration: none;
 }
 
 .section-style h3{
-    display: inline-block;
+   display: inline-block;
    position: relative;
    left: 150px;
 
@@ -199,6 +199,7 @@ text-decoration: none;
 }
 
 .project-section{
+    margin-top: 100px;
     display: flex;
     flex-direction: column;
     gap: 150px;
