@@ -122,9 +122,7 @@ text-decoration: none;
 
 .section-style h3{
    display: inline-block;
-   position: relative;
-   left: 150px;
-
+   font-size: 35px;
 }
 
 .section-style h4{
@@ -202,24 +200,21 @@ text-decoration: none;
     margin-top: 100px;
     display: flex;
     flex-direction: column;
-    gap: 150px;
+    gap: 50px;
 }
+
+.project-title{
+    display: flex;
+    justify-content: center;
+}
+
 
 .project-section h3{
    font-size: 37px;
-   left: 450px;
-   top:-0px;
+   text-decoration: underline;
+   text-underline-offset: 13px;
 }
 
-.line{
-    height: 2px;
-    border-radius: 10px;
-    width: 510px;
-    background-color: #4A4A4A;
-    position: relative;
-    top: -80px;
-    left: 420px;
-}
 
 .gif-text-layout{
     display: flex;
@@ -235,21 +230,12 @@ text-decoration: none;
 .text-link-layout{
     display: flex;
     flex-direction: column;
-    gap: 150px;
+    gap: 50px;
 }
 
 .text-link-layout a {
-    position: relative;
-    left: 250px;
-    top: -50px;
-    width: 150px;
-    padding: 10px;
+    width: 50px;
     border-radius: 10px;
-    background-color: black;
-    color: white;
     text-decoration: none;
 }
 
-.text-link-layout a:hover{
-    box-shadow: 0 5px 13px 0 #4A4A4A;
-}
