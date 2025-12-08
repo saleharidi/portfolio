@@ -107,6 +107,10 @@ text-decoration: none;
     border-radius: 30px;
 }
 
+.insta-icon{
+    border-radius: 0;
+}
+
 .section-style{
     margin-left: 50px;
     margin-top: 300px;
@@ -237,5 +241,80 @@ text-decoration: none;
     width: 50px;
     border-radius: 10px;
     text-decoration: none;
+}
+
+.contact-section{
+    margin-top: 100px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 60px;
+}
+
+.input-field{
+    border: 2px solid #4A4A4A;
+    border-radius: 15px;
+    height: 50px;
+    width: 600px;
+    padding: 0 0 0 27px;
+    font-size: 18px;
+    background-color: #e4e4e4;
+}
+
+input::placeholder{
+    color: #6d8196;
+}
+
+.input-field:hover{
+    box-shadow: 0 0 7px 0 #4A4A4A;
+}
+
+.message-field{
+    padding: 5px 0 0 27px;
+    height: 70px;
+    width: 600px;
+}
+
+textarea::placeholder{
+    color: #6d8196;
+}
+
+.submit-btn{
+    border-radius: 10px;
+    padding: 5px 15px 5px 15px;
+    width: 80px;   
+    height: 35px;
+}
+
+.submit-btn:hover{
+    box-shadow: 0 2px 10px #4A4A4A;
+}
+
+.contact-gif-layout{
+    display: flex;
+    gap: 200px;
+}
+
+.gif-container{
+    display: flex;
+    align-items: center;
+}
+
+.gif-container img{
+    border-radius: 10px;
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #bababa;
+    color: #4A4A4A;
+    margin-top: 50px;
 }
 
