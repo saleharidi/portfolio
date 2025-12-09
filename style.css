@@ -71,20 +71,27 @@ nav ul li a{
 }
 
 
-#hero-section h1{
+.hero-h1{
     margin: 15px 0 15px 0;
     font-size: 70px;
     color: #4A4A4A;
+    transition: 0.6s ease-in;
+    transform: translateX(-500px);
 }
 
-#hero-section h2{
+.hero-h2{
     margin: 5px;
     font-size: 40px;
+    transition: 1s ease-in;
+    transform: translateY(300px);
+    opacity: 0;
 }
 
-#hero-section p{
+.hero-p{
    margin: 5px;
    font-size: 20px;
+   transition: 1s ease-in;
+   transform: translateY(-300px);
 }
 
 .hero-img {
@@ -102,11 +109,16 @@ nav ul li a{
 text-decoration: none;
 }
 
+.icon-animation{
+    transform: translateX(-500px);
+    transition: 0.8s ease-in;
+}
+
 .social-link{
     margin-right: 25px;
     border-radius: 30px;
 }
-
+ 
 .insta-icon{
     border-radius: 0;
 }
