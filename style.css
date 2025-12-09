@@ -152,52 +152,24 @@ text-decoration: none;
 
 .percentage-bar{
     height: 20px;
-    width: 400px;
+    width: 0;
     border-radius: 10px;
     background-color: black;
-    position: relative;
-    top: -20px;
+    transition: width 1.5s ease-out;
+}
+
+.percentage-bar.active{
+
 }
 
 .percentage{
-    display: inline-block;
     font-size: 13px;
-    color: #CBCBCB;
-    position: relative;
-    top: -50px;
-    left: 365px;
-}
-
-.percentage-bar-css{
-    width: 440px;
-}
-
-.percentage-css{
-    left: 405px;
-}
-
-.percentage-bar-js{
-    width: 90px;
-}
-
-.percentage-js{
-    left: 55px;
-}
-
-.percentage-bar-ct{
-    width: 380px;
-}
-
-.percentage-ct{
-    left: 345px;
-}
-
-.percentage-bar-al{
-    width: 475px;
-}
-
-.percentage-al{
-    left: 440px;
+    color: #bcbcbc;
+    text-align: right;
+    line-height: 20px;
+    padding-right: 5px;
+    opacity: 0;
+    transition: 0.5s ease-in;
 }
 
 .project-section{
