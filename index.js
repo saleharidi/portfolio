@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const percentBar = document.querySelectorAll('.percentage-bar')
 
-    const observerCallback = (entries, observer) => {
+    function observerCallback (entries, observer) {
 
         entries.forEach(entry => {
 
